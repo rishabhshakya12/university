@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <img src="logo.png" alt="">
+            <div class="nav-link" id="NAVLINKS">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Contact Us</h1>
+    </section>
+
+    <!-- _______Contact us_______ -->
+    <section class="loaction">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.0489833080255!2d77.51524537502583!3d28.417778793801343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc1d009e822d5%3A0x653fe4f3eabafa58!2sGautam%20Buddha%20University%20Helipad!5e0!3m2!1sen!2sin!4v1692096940596!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    </section>
+
+
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Greater Noida,Uttra Pradesh</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-phone"></i>
+                    <span>
+                        <h5>
+                            +1 0123456789
+                        </h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>
+                            info@gbu.ac.in
+                        </h5>
+                        <p>Email us your</p>
+                    </span>
+                </div>
+                
+            </div>
+         
+            <div class="contact-col">
+
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email" required>
+                    <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="Submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+   
+    
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aperiam corporis perspiciatis neque possimus. <br>Cumque fugit nemo ipsa illum deleniti eaque minima.</P>
+        <br>
+        <div class="icons">
+            <i class="fa fa-brands fa-facebook-f"></i>
+            <i class="fa fa-brands fa-instagram"></i>
+            <i class="fa fa-brands fa-twitter"></i>
+            <i class="fa fa-brands fa-linkedin"></i>
+        </div>
+        <p class="ending">Made with <i class="fa fa-regular fa-heart"></i> by Rishabh</p>
+        </div>
+    </section>
+    
+
+    <script>
+        var navlinks=document.getElementById("NAVLINKS")   
+        
+        function showMenu(){
+            navlinks.style.right="0"
+        }
+        function hideMenu(){
+            navlinks.style.right="-400px"
+        }
+        
+    </script>
+   
+    
+
+
+
+
+   
+
+</body>
+
+</html>

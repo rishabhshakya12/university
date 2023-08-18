@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <section class="header">
+    <section class="sub-header">
         <nav>
             <img src="logo.png" alt="">
             <div class="nav-link" id="NAVLINKS">
@@ -27,17 +27,11 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <div class="textbox">
-            <h1>Worlds Biggest University</h1>
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aspernatur rerum accusantium, animi assumenda, aperiam cum ipsam soluta sint<br> nisi eveniet recusandae ea?</p>
-            
-    
-        </div>
-        <div class="hero">
-            <a href="" class="hero-btn">VISIT US FOR MORE</a>
-        </div>
+       <h1>Our Courses</h1>
     </section>
+
+    <!-- courses -->
+
     <section class="course">
         <h2>Course We Offer</h2>
         <p class="para-one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, sed!</p>
@@ -56,32 +50,8 @@
             </div>
         </div>
     </section>
-    <!-- /* -------CAMPUS------ */ -->
-    <section class="campus">
-        <h2>Our Global campus</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, eaque!</p>
-        <div class="row">
-            <div class="campus-col">
-                <img src="london.png" >
-                <div class="layer">
-                    <h3>LONDON</h3>
-                </div>
-            </div>
-            <div class="campus-col">
-                <img src="newyork.png">
-                <div class="layer">
-                    <h3>NEW YORK</h3>
-                </div>
-            </div>
-            <div class="campus-col">
-                <img src="washington.png" >
-                <div class="layer">
-                    <h3>WASHINGTON</h3>
-                </div>
-            </div>
-        </div>
-    </section>
 
+    <!-- facilities -->
     <section class="facilities">
         <h2>Our Facitilies</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, nisi.</p>
@@ -104,46 +74,8 @@
         </div>
     </section>
 
-    <section class="testimonials">
-        <h2>What our Student Say!</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam tempore sed non, laudantium cumque aliquid illo perferendis iste voluptates cum2</p>
-        <div class="row">
-            <div class="testimonials-col">
-                <img src="user1.jpg" alt="">
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia totam pariatur et, tenetur impedit, magnam voluptate quisquam dolorem, earum obcaecati dolores. Laboriosam, laborum asperiores!</p>
-                    <h3>Cristine Berklye</h3>
-                    <i class="fa-sharp fa-solid fa-star fa-bounce"></i>
-                    <i class="fa-sharp fa-solid fa-star fa-bounce"></i>
-                    <i class="fa-sharp fa-solid fa-star fa-bounce"></i>
-                    <i class="fa-sharp fa-solid fa-star fa-bounce"></i>
-                    <i class="fa-regular fa-star fa-bounce"></i>
-                </div>
-            </div>
-            <div class="testimonials-col">
-                <img src="user2.jpg" alt="">
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia totam pariatur et, tenetur impedit, magnam voluptate quisquam dolorem, earum obcaecati dolores. Laboriosam, laborum asperiores!</p>
-                    <h3>David Warner</h3>
-                    <i class="fa-sharp fa-solid fa-star fa-bounce"></i>
-                    <i class="fa-sharp fa-solid fa-star fa-bounce"></i>
-                    <i class="fa-sharp fa-solid fa-star fa-bounce"></i>
-                    <i class="fa-sharp fa-solid fa-star fa-bounce"></i>
-                    <i class="fa-solid fa-star-half-stroke fa-bounce"></i>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    
-    <section class="cta">
-        <h2 id="hh2">
-            Enroll For Our Various Online Courses <br>Anywhere From the world.
-        </h2>
-        <div class="hero">
-            <a href="" class="hero-btn">CONTACT US</a>
-        </div>
-    </section>
+
 
     <section class="footer">
         <h4>About Us</h4>
@@ -159,6 +91,18 @@
         </div>
     </section>
     
+
+    <script>
+        var navlinks=document.getElementById("NAVLINKS")   
+        
+        function showMenu(){
+            navlinks.style.right="0"
+        }
+        function hideMenu(){
+            navlinks.style.right="-400px"
+        }
+        
+    </script>
    
     
 
@@ -166,17 +110,6 @@
 
 
    
-<script>
-    var navlinks=document.getElementById("NAVLINKS")   
-    
-    function showMenu(){
-        navlinks.style.right="0"
-    }
-    function hideMenu(){
-        navlinks.style.right="-400px"
-    }
-    
-</script>
 
 </body>
 

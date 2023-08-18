@@ -101,7 +101,7 @@ nav .fa{
         flex-direction: column;
     }
     .nav-link{
-        position: absolute;
+        position: fixed;
         background: #f44336;
         height: 100vh;
         width: 200px;
@@ -300,7 +300,6 @@ p .para-two{
     margin: 23px;
     cursor: pointer;
     box-shadow: 0px 0px 5px rgb(105, 104, 104);
-    font-family: sans-serif;
     font-weight: lighter;
     font-size: 0.9rem;
 }
@@ -338,3 +337,217 @@ p .para-two{
     color: #e0dfdf;
     margin: 40px;
 }
+
+/*footer*/
+.footer{
+    width: 100%;
+    text-align: center;
+    pad: 30px 0px;
+
+}
+.footer>h4{
+    margin:25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.icons .fa{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 10px 0;
+}
+.fa-regular{
+    color: #f44336;
+}
+.ending{
+    margin: 30px 4px;
+}
+
+
+
+/*..about us page..*/
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff3f3;
+}
+.sub-header>h1{
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 5.5vh;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom:50px  ;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+    font-weight: 800;
+    font-size: 5.5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-col p{
+    padding: 15px 0px 25px;
+}
+.red-btn{
+    border: 2px solid #f44336;
+    background: transparent;
+    color: #f44336;
+}
+.red-btn:hover{
+    color: #e0dfdf;
+}
+@media(max-width: 800px){
+    .about-us .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/*....blog content....*/
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0px;
+}
+.blog-left{
+    flex-basis: 65%;
+    padding: 0px 20px;
+}
+.blog-left img{
+    width: 100%;
+}
+.blog-left h2{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.blog-left p{
+    color: #999;
+    padding: 0;
+}
+
+.blog-right{
+    flex-basis: 32%;
+}
+.blog-right h3{
+    background: #f44336;
+    color: #fff3f3;
+    padding: 7px 0px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.blog-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.comment-box{
+    border: 1px solid #ccc;
+    margin: 50px 0px ;
+    padding: 10px 20px;
+}
+.comment-box h3{
+    text-align: left;
+}
+.comment-form input, .comment-form textarea{
+width: 100%;
+padding: 10px;
+margin: 15px 0px;
+box-sizing: border-box;
+border: none;
+outline: none;
+background: #f0f0f0;
+}
+.comment-form button{
+    margin: 10px 0px;
+}
+
+/*....media query for blog page....*/
+@media(max-width: 800px){
+    .blog-content .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-header h1{
+        font-size: 24px;
+    }
+}
+
+/*....contact us page....*/
+.loaction{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0px;
+}
+.loaction iframe{
+    width: 100%;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 48%;
+    margin-bottom: 30px;
+} 
+.contact-us div{
+    display: flex;
+    margin-bottom: 40px;
+}
+.contact-col div .fa-solid{
+    font-size: 17px;
+    color: #f44336;
+    margin: 10px;
+    margin-right: 30px;
+}
+.contact-col div p{
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #636363;
+}
+.contact-col div h5{
+    font-size: 17px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.contact-col input, .contact-col textarea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    outline: none;
+    border: 2px solid #bfbfbf;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+@media(max-width: 800px){
+    .contact-us>.row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
